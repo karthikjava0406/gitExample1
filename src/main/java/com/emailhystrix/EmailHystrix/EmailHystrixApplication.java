@@ -15,6 +15,10 @@ public class EmailHystrixApplication {
 	public String emailhit(){
 		return "this is email";
 	}
+	@GetMapping("/eml2")
+	public String emailhit2(){
+		return "this is email2";
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(EmailHystrixApplication.class, args);
